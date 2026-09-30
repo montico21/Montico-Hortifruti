@@ -1,0 +1,15 @@
+:root{
+  --main: ;
+  --second: ;
+  --third: ;
+  --black: #333;
+  --white: ;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: Arial Sans;
+  transition: 0.3s linear;
+}
