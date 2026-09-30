@@ -13,3 +13,41 @@
   font-family: Arial Sans;
   transition: 0.3s linear;
 }
+
+h1, h2, h3{
+  font-family: 'DM Serif Display', serif;
+}
+
+p, a, button{
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  display:flex;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  box-shadow: 5px 5px 5px var(--black);
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  gap: 5rem;
+}
+
+nav.navALogo{
+  position: relative;
+  left: 4rem;
+}
+
+nav a{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+img.navImgLogo{
+  position: relative;
+  width: 15vw;
+  height: auto;
+  object-fit: cover;
+}
